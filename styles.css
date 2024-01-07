@@ -284,6 +284,7 @@ input[type="submit"] {
     font-size: 1.3rem;
     font-weight: 500;
     color: #fff;
+    cursor: pointer;
 }
 
 
@@ -298,5 +299,6 @@ text-align: end;
 color: #fff;
 font-size: 1.2rem;
 font-weight: 500;
+
 }
 
