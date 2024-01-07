@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#form">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="content-div">
+            <h1>Hello.</h1>
+            
+            <p>
+            I'm Renohar S K, a frontend developer with a focus on WordPress and two years of experience in designing static web pages. Proficient in HTML, CSS, JavaScript, and Bootstrap, I am currently enhancing my skills by exploring React and Redux for the development of dynamic web applications.
+            </p>
+
+            <a href="#portfolio">PortFolio</a>
+
+        </div>
+        <div class="img-div">
+            <img src="./laptop.webp" alt="">
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+
+        <h2>Projects.</h2>
+        <div class="portfolio-outer-box">
+
+            <div class="portfolio-box">
+                <h3>Blogs</h3>
+                <p class="desc"><b>Description : </b>Create a blog application using React and utilize Redux for state management. Fetch blog posts from an external API, each post containing a heading, description, and author name. Implement individual pages for viewing posts, including features such as Like and Similar buttons to enhance user interactivity.</p>
+                <p><b>Technologies Used : </b>Html, Css, Javascript, React, Redux, React Router</p>
+                <a target="_blank" href="https://rreact-redux-blog.netlify.app/">View</a>
+            </div>
+
+
+            <div class="portfolio-box">
+                <h3>ToDo List</h3>
+                <p class="desc"><b>Description : </b>Develop a ToDo application for managing tasks with features such as marking tasks as complete, deleting tasks, and a search function.</p>
+                <p><b>Technologies Used : </b>Html, Css, Javascript, React</p>
+
+                <a target="_blank" href="https://rreact-todolist.netlify.app/">View</a>
+            </div>
+
+            <div class="portfolio-box">
+                <h3>Calculator</h3>
+                <p class="desc" ><b>Description : </b>Develop a Simple Calculator App with with Basic Arithmetic Operations.</p>
+                <p><b>Technologies Used : </b>Html, Css, Javascript, React</p>
+
+                <a href="https://rreact-calculator.netlify.app/" target="_blank">View</a>
+            </div>
+
+            <div class="portfolio-box">
+                <h3>Weather App</h3>
+                <p class="desc"><b>Description : </b>Develop a Simple Current Weather and Forecast Weather Application which fetches data through API.</p>
+                <p><b>Technologies Used : </b>Html, Css, Javascript, React</p>
+
+                <a href="https://checkweatherapplication.netlify.app/" target="_blank">View</a>
+            </div>
+
+            <div class="portfolio-box">
+                <h3>Drum Machine</h3>
+                <p class="desc"><b>Description : </b>Develop a Simple Make Sound or Drum Machine , that makes sound  on clicking the mentioned buttons or using mentioned keys in Keyboard.</p>
+                <p><b>Technologies Used : </b>Html, Css, Javascript, React</p>
+
+                <a href="https://ddrum-machine.netlify.app/" target="_blank">View</a>
+            </div>
+
+
+            <div class="portfolio-box">
+                <h3>Random Quotes Generator</h3>
+                <p class="desc"><b>Description : </b>Develop a Random Quote Generator Application that shows Different Quotes on Reload.</p>
+                <p><b>Technologies Used : </b>Html, Css, Javascript, React</p>
+
+                <a href="https://rrandom-quotes-generator.netlify.app/" target="_blank">View</a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>Skills.</h2>
+        <div class="skills-outer">
+
+            <div class="skills-box">
+                <label for="file">HTML & CSS:</label>     
+                <progress id="file" value="80" max="100"> 75% </progress>
+            </div>
+
+            <div class="skills-box">
+                <label for="file">Javascript:</label>     
+                <progress id="file" value="60" max="100"> 60% </progress>
+            </div>
+
+            <div class="skills-box">
+                <label for="file">React:</label>     
+                <progress id="file" value="50" max="100"> 50% </progress>
+            </div>
+
+            <div class="skills-box">
+                <label for="file">Redux:</label>     
+                <progress id="file" value="50" max="100"> 50% </progress>
+            </div>
+
+            <div class="skills-box">
+                <label for="file">Bootstrap & Sass:</label>     
+                <progress id="file" value="70" max="100"> 70% </progress>
+            </div>
+
+            <div class="skills-box">
+                <label for="file">Wordpress:</label>     
+                <progress id="file" value="75" max="100"> 75% </progress>
+            </div>
+
+            <div class="skills-box">
+                <label for="file">Responsive Web Design:</label>     
+                <progress id="file" value="75" max="100"> 75% </progress>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="form">
+        <h2>Contact.</h2>
+        <form action="mailto:renohar1996@gmail.com">
+            <label for="name">Name: </label>
+            <input placeholder="Enter your name" type="text" id="name" name="name"/>
+
+            <label for="email">Email: </label>
+            <input placeholder="Enter your Email" type="text" id="email" name="email"/>
+
+            <label for="message">Message: </label>
+            <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+
+            <input type="submit">
+
+        </form>
+    </section>
+
+
+
+
+    <footer>
+        <div>
+            <p id="time"></p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
